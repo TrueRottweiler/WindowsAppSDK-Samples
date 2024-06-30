@@ -1,4 +1,4 @@
-@echo off
+@echo OFF
 if "%1"=="/?" goto :usage
 if "%1"=="-?" goto :usage
 if "%VSINSTALLDIR%" == "" goto :usage
